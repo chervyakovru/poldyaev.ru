@@ -1,0 +1,30 @@
+.content{
+    overflow: hidden;
+    white-space: nowrap;
+
+  }
+  .animation__circle{
+  position: relative;
+  animation-name: circle;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin:0; 
+  font-weight: 400;
+  font-size: 300px;
+  line-height: 160%;
+  top: -130px;
+  color: #255AF6;
+  }
+  
+  @keyframes circle{
+  
+  0%{
+  left: -150%;
+  }
+  100%{
+  left: 100%;
+  }
+  }
+

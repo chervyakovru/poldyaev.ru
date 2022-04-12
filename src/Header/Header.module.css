@@ -1,0 +1,97 @@
+.header {
+  background: #1e1e1e;
+  height: 720px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.header::after {
+  content: url("../Header/poldyaev.png");
+  position: absolute;
+  display: block;
+  right: 0px;
+  top: 0px;
+}
+
+.navigation {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  display: flex;
+  column-gap: 40px;
+  list-style-type: none;
+  color: #ffffff;
+  z-index: 1;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.link {
+  font-size: 16px;
+  line-height: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 0px;
+}
+
+.button:hover {
+  animation: bounce 1s;
+}
+.line {
+  width: 100px;
+  margin: 19px 0px 0px 0px;
+  size: 1px;
+}
+
+.bigNameWrapper {
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+}
+
+.bigName {
+  position: relative;
+  margin: 0;
+  font-weight: 400;
+  font-size: 300px;
+  line-height: 160%;
+  top: -130px;
+}
+
+.aboutMe__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-left: 150px;
+}
+
+.aboutMe_title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.button_wrapper {
+  position: absolute;
+  content: " ";
+  top: 330px;
+  left: 640px;
+}
+.button_wrapper::after {
+  position: absolute;
+  content: url("../Header/Circle/Shape.svg");
+  top: 55px;
+  left: 45px;
+}
