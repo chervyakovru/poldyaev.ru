@@ -12,6 +12,7 @@
   display: block;
   right: 0px;
   top: 0px;
+  z-index: 1;
 }
 
 .navigation {
@@ -70,6 +71,7 @@
 }
 
 .aboutMe__wrapper {
+  width: 450px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -89,9 +91,28 @@
   top: 330px;
   left: 640px;
 }
-.button_wrapper::after {
+.button_wrapper::before {
   position: absolute;
   content: url("../Header/Circle/Shape.svg");
   top: 55px;
   left: 45px;
+}
+
+.linkWrapper {
+  margin-left: 30px;
+  position: relative;
+}
+
+.linkWrapper::before {
+  position: absolute;
+  content: url("../Header/shape.svg");
+  left: -30px;
+}
+
+.linkDown {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #ffffff;
 }

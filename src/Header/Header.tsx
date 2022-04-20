@@ -34,6 +34,9 @@ export default function Header() {
         </li>
       </nav>
       <Slider />
+      <div className={styles.button_wrapper}>
+        <Circle />
+      </div>
       <div className={styles.aboutMe__wrapper}>
         <p className={styles.aboutMe_title}>
           Меня зовут Данил Польдяев,
@@ -43,9 +46,11 @@ export default function Header() {
           Люблю решать сложные задачи и узнавать <br /> новое. Учусь создавать
           web приложения <br /> с помощью React и экосистемы
         </p>
-      </div>
-      <div className={styles.button_wrapper}>
-        <Circle />
+        <div className={styles.linkWrapper}>
+          <a className={styles.linkDown} href="#portfolio">
+            дальше
+          </a>
+        </div>
       </div>
     </header>
   );

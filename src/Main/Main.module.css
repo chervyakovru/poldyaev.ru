@@ -1,0 +1,35 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  box-shadow: rgb(72 72 72 / 30%) 0px 0.5px 0px;
+}
+
+.row:last-of-type {
+  box-shadow: none;
+}
+
+.project {
+  color: black;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 160%;
+  margin: auto 0;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 160%;
+  color: black;
+}
+
+.rowProjects {
+}

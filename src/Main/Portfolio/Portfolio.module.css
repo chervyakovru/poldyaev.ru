@@ -1,0 +1,59 @@
+.content {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.top_circle {
+  position: relative;
+  animation: bottomCircle 25s linear infinite;
+  margin: 0;
+  margin-bottom: 60px;
+  width: 1600px;
+}
+
+.bottom_circle {
+  width: 1600px;
+  position: relative;
+  animation: bottomCircle 25s linear infinite;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+@keyframes topCircle {
+  0% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes bottomCircle {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.row {
+  display: flex;
+  column-gap: 50px;
+}
+.card {
+  width: 530px;
+  padding: 35px 56px;
+  background: black;
+}
+.img {
+  height: 287px;
+  background-image: url(./projects1.png);
+}
