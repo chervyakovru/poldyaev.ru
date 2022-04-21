@@ -4,7 +4,7 @@
 }
 .top_circle {
   position: relative;
-  animation: bottomCircle 25s linear infinite;
+  animation: topCircle 35s linear infinite;
   margin: 0;
   margin-bottom: 60px;
   width: 1600px;
@@ -13,7 +13,7 @@
 .bottom_circle {
   width: 1600px;
   position: relative;
-  animation: bottomCircle 25s linear infinite;
+  animation: bottomCircle 35s linear infinite;
   margin: 0;
   margin-bottom: 60px;
 }

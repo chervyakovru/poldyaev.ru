@@ -1,6 +1,7 @@
 .header {
+  padding: 20px 0px 40px 0px;
   background: #1e1e1e;
-  height: 720px;
+  /* height: 720px; */
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -84,6 +85,9 @@
   font-size: 18px;
   line-height: 130%;
 }
+.aboutMeLast {
+  margin-bottom: 80px;
+}
 
 .button_wrapper {
   position: absolute;
@@ -103,6 +107,10 @@
   position: relative;
 }
 
+.linkWrapper:hover {
+  animation: bounce 1.5s;
+}
+
 .linkWrapper::before {
   position: absolute;
   content: url("../Header/shape.svg");
@@ -115,4 +123,5 @@
   line-height: 15px;
   text-decoration: none;
   color: #ffffff;
+  padding: 10px 0;
 }

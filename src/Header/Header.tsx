@@ -42,7 +42,7 @@ export default function Header() {
           Меня зовут Данил Польдяев,
           <br />я – начинающий frontend разработчик
         </p>
-        <p className={styles.aboutMe_title}>
+        <p className={(styles.aboutMe_title, styles.aboutMeLast)}>
           Люблю решать сложные задачи и узнавать <br /> новое. Учусь создавать
           web приложения <br /> с помощью React и экосистемы
         </p>

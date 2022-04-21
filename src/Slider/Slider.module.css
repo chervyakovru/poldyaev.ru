@@ -1,30 +1,29 @@
-.content{
-    overflow: hidden;
-    white-space: nowrap;
-
-  }
-  .animation__circle{
+.content {
+  overflow: hidden;
+  white-space: nowrap;
+  height: 380px;
+  width: 1900px;
+}
+.animation__circle {
   position: relative;
-  animation-name: circle;
-  animation-duration: 25s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  margin:0; 
+  animation: circle 35s linear infinite;
+  margin: 0;
   font-weight: 400;
   font-size: 300px;
   line-height: 160%;
   top: -130px;
-  color: #255AF6;
-  }
-  
-  @keyframes circle{
-  
-  0%{
-  left: -150%;
-  }
-  100%{
-  left: 100%;
-  }
+  color: #255af6;
+}
+
+@keyframes circle {
+  0% {
+    transform: translateX(100%);
   }
 
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
