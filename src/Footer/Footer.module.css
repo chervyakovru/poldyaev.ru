@@ -1,0 +1,105 @@
+.footer {
+  background: #1e1e1e;
+  height: 640px;
+  padding: 90px 0px 20px 0px;
+  z-index: 0;
+  position: relative;
+}
+.title {
+  margin-top: 0px;
+  margin-left: 150px;
+  font-size: 60px;
+  line-height: 120%;
+  z-index: 4;
+  position: absolute;
+}
+
+.contacts {
+  margin: 320px 0px 0px 150px;
+  display: flex;
+  column-gap: 10px;
+  z-index: 2;
+  position: absolute;
+}
+
+.button {
+  width: 250px;
+  height: 47px;
+  border-radius: 100px;
+
+  background: #1e1e1e;
+  border: 1px solid white;
+  padding: 12px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  border: 0.2px solid #ffffff;
+
+  text-decoration: none;
+  color: #ffffff;
+}
+.slider {
+  position: absolute;
+  top: 320px;
+}
+
+.line {
+  margin-top: 540px;
+  border: 1px solid #ffffff;
+  margin-bottom: 30px;
+}
+
+.infoWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  column-gap: 46px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.blockTitle {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+  color: #cdcdcd;
+  margin: 0;
+}
+.blockSubTitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+}
+.social {
+  display: flex;
+  column-gap: 58px;
+}
+.github {
+  position: relative;
+}
+
+.github::before {
+  content: url("./github.svg");
+  position: absolute;
+  left: -20px;
+  top: 2px;
+}
+
+.telegram {
+  position: relative;
+}
+.telegram::before {
+  content: url("./telegram.svg");
+  position: absolute;
+  left: -20px;
+}
