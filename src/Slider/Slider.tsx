@@ -1,9 +1,9 @@
-import styles from './Slider.module.css'
+import styles from "./Slider.module.css";
 
-export default function Slider(){
-    return(
-        <div className={styles.content}>
-        <h1 className={styles.animation__circle}>FRONTEND DEVELOPER </h1>
-      </div>
-    )
+export default function Slider() {
+  return (
+    <div className={styles.content}>
+      <div className={styles.animation__circle}>FRONTEND DEVELOPER</div>
+    </div>
+  );
 }

@@ -1,17 +1,12 @@
 .content {
   overflow: hidden;
   white-space: nowrap;
-  height: 380px;
-  width: 1900px;
+  width: 100%;
 }
 .animation__circle {
-  position: relative;
   animation: circle 35s linear infinite;
-  margin: 0;
-  font-weight: 400;
   font-size: 300px;
-  line-height: 160%;
-  top: -130px;
+  line-height: 0.8;
   color: #255af6;
 }
 
@@ -19,7 +14,6 @@
   0% {
     transform: translateX(100%);
   }
-
   50% {
     transform: translateX(-100%);
   }

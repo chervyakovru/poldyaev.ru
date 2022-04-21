@@ -1,12 +1,10 @@
 .circle {
   position: relative;
-  width: 120px;
-  border-radius: 50%;
-  height: 120px;
-  font-weight: 400;
-  font-size: 17.8524px;
-  line-height: 17px;
-  margin: 10% auto;
+  width: 95px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .circle b {
   position: absolute;

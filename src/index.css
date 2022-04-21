@@ -21,6 +21,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
+
+  font-size: 18px;
+  line-height: 130%;
 }
 
 code {
@@ -31,5 +34,4 @@ code {
 a {
   text-decoration: none;
   color: #ffff;
-  padding: 5px 0px;
 }
